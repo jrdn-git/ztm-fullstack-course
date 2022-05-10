@@ -1,0 +1,17 @@
+# ztm/webdev/css
+
+# /selectors
+- .class
+- #id
+- * (selects all)
+- element
+- element, element
+- element element
+- element > element
+- element + element
+- :hover
+- :last-child
+- :first-child
+- !important (not recommended)
+
+ 
