@@ -1,0 +1,40 @@
+# what it will cover:
+- how to approach a layout
+- CSS units (absolute, relative, and percentages)
+- flexbox basics (layout tool)
+- media query basics (adapting to different screen sizes)
+
+# css units
+- absolute units; pixels (px); pt, cm, mm, in, etc.
+- percentages (mainly used for widths)
+    - relative to parent (except on height)
+- relative units
+    - units relative to font-size:
+        - em and rem
+    - units relative to the viewport:
+        - vw, vh, vmin, vmax
+
+# percentages
+- using percentages will force containers to 
+respond with the screen size
+
+# working with image widths
+- percentages work best with images in order
+to make them act reponsively
+- if in container, give 100% width/height to make
+the image act responsively
+
+# max-width / min-width
+- max-width can be used to stop containers/images/etc. from 
+growing, works perfectly for keeping text on multiple lines, etc.
+- min-width gives it a width to stop shrinking @...
+
+# the 'em' unit
+- 'em' and 'rem' are considered relative b/c they are relative
+to the font-size of their parents
+- font-size is an inherited property, so if not declared, it is 
+getting it from the body (or the default, which is 16px)
+- 1.5em is = to 150% the font-size of the parent 
+
+lecture: https://www.youtube.com/watch?v=srvUrASNj0s
+last left off: 24:03
