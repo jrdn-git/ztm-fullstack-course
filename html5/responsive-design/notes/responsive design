@@ -1,3 +1,4 @@
+# lecture: https://www.youtube.com/watch?v=srvUrASNj0s
 # what it will cover:
 - how to approach a layout
 - CSS units (absolute, relative, and percentages)
@@ -30,11 +31,20 @@ growing, works perfectly for keeping text on multiple lines, etc.
 - min-width gives it a width to stop shrinking @...
 
 # the 'em' unit
-- 'em' and 'rem' are considered relative b/c they are relative
-to the font-size of their parents
+- 'em' and 'rem' are considered relative b/c they are relative to the font-size of their parents
 - font-size is an inherited property, so if not declared, it is 
 getting it from the body (or the default, which is 16px)
 - 1.5em is = to 150% the font-size of the parent 
+- causes fonts, etc. to work hand-in-hand; together
 
-lecture: https://www.youtube.com/watch?v=srvUrASNj0s
-last left off: 24:03
+# the 'rem' unit
+- short for 'Root Em'
+- always relative to the 'root' of the document
+    - root of an HTML page is the html element
+- keeps everything proportionate
+
+# how to decide which unit to use
+- font size should use 'rem'; prevents cascading
+- padding and margin should use 'em'
+- widths should use 'em' or percentage... pixels ok
+
